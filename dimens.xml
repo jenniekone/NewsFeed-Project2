@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="PaddingLeft">10dp</dimen>
+    <dimen name="PaddingRight">12dp</dimen>
+    <dimen name="ListViewDividerHeight">8dp</dimen>
+    <dimen name="PaddingTop">6dp</dimen>
+    <dimen name="TextSize">8sp</dimen>
+    <dimen name="PaddingBottom">2dp</dimen>
+</resources>

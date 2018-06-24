@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:divider="?android:dividerHorizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/PaddingBottom"
+    android:paddingLeft="@dimen/PaddingLeft"
+    android:paddingStart="@dimen/PaddingRight"
+    android:paddingTop="@dimen/PaddingTop"
+    android:showDividers="middle">
+
+
+    <TextView
+        android:id="@+id/sectionId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/TextSize"
+        tools:text="liveblog" />
+
+
+    <TextView
+        android:id="@+id/sectionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/TextSize"
+        tools:text="Polittic" />
+
+
+    <TextView
+        android:id="@+id/webTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/TextSize"
+        tools:text="Long placeholder title that should wrap to more than 1 lines of text" />
+
+    <TextView
+        android:id="@+id/webPublicationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/TextSize"
+        tools:text="Mar 6, 2010" />
+
+    <TextView
+        android:id="@+id/authorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textAllCaps="true"
+        android:textColor="@color/color1"
+        android:textSize="8sp"
+        tools:text="author" />
+
+    <View style="@style/Divider" />
+
+</LinearLayout>
